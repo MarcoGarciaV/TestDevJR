@@ -9,7 +9,8 @@ require('api/methods.php');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>TESTDEVJR - USER</title>
     <style>
     .table-row{
 cursor:pointer;
@@ -18,9 +19,9 @@ cursor:pointer;
 </head>
 <body>
 
-<div class="container mt-5" id="divTable">
-    
-
+<div class="container mt-5" >
+    <div class="row text-center mb-4"  ><h1>USERS</h1></div>
+    <div class="row" id="divTable"></div>
 </div>
 
 <!-- Modal -->

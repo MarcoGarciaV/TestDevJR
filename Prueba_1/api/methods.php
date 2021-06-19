@@ -35,7 +35,9 @@ if($_POST){
               <td>$user->phone</td>
               <td>$user->website</td>
               <td>{$user->company->name}</td>   
-              <td><Button id='btnModal' onclick='Show($user->id)' name='$user->id' class='btn btn-primary'>Ver</Button></td>   
+              <td><Button id='btnModal' onclick='Show($user->id)' name='$user->id' class='btn btn-default'>
+              <i class='fa fa-eye'></i>
+              </Button></td>   
             </tr>
         
             ";
@@ -130,7 +132,9 @@ if($_POST){
                <tr>
                  <th>$posts->title</th>
                  <td>$posts->body</td> 
-                 <td><Button id='btnModal' onclick='showComments($posts->id)' name='$posts->id' class='btn btn-primary'>Ver</Button></td>   
+                 <td>
+                 <Button id='btnModal' onclick='showComments($posts->id)' name='$posts->id' class='btn btn-default'>
+                 <i class='fa fa-eye'></i></Button></td>   
                </tr>
            
                ";
